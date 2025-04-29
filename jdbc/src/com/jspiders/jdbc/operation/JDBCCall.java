@@ -13,6 +13,8 @@ public class JDBCCall {
 	private static ResultSet resultSet;
 	
 	public static void main(String[] args) {
+
+		//this below is handle the exception which may occur while running
 		try {
 			openConnection();
 			query="call stoe()";
