@@ -38,6 +38,7 @@ public class JDBCCall {
 		}
 		
 	}
+	//this is the connection driver for the jdbc
 	private static void openConnection() throws SQLException {
 		connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/weja4","root","root");
 	}
